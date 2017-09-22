@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="980b30f9-9fae-4988-bdd1-ba4dd0512e16" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/go2going/lambda/lambdaTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/go2going/lombok/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/go2going/lombok/lombokTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/go2going/lombok/PersonTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.ignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="lambdaTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lambda/lambdaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ProcessHa</find>
+      <find>•</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>*</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/go2going/lambdaTest.java" />
+        <option value="$PROJECT_DIR$/doc/maven.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/go2going/lombok/lombokTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/go2going/lombok/lombokTestTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/go2going/lombok/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/go2going/lombok/PersonTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.ignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/go2going/lombok/lombok.md" />
+        <option value="E:/temp/java_jar/solr-5.5.3/server/solr/core2/conf/managed-schema" />
+        <option value="$PROJECT_DIR$/src/main/java/com/go2going/lambda/lambdaTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/temp/java_jar/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\temp\java_jar\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testcode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testcode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="144" />
+    <option name="y" value="262" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="go2going" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="go2going" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="go2going" type="462c0819:PsiDirectoryNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="go2going" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="go2going" type="462c0819:PsiDirectoryNode" />
+              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="last_opened_file_path" value="E:/wq_proj/personal" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.go2going.lombok" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\lucene-solr-master\lucene\testcode\src\main\java\com\go2going\lombok" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonTest.val">
+    <configuration name="PersonTest.val" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.go2going.lombok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testcode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.go2going.lombok" />
+      <option name="MAIN_CLASS_NAME" value="com.go2going.lombok.PersonTest" />
+      <option name="METHOD_NAME" value="val" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="lambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.go2going.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.go2going.lambda.lambdaTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testcode" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.lambdaTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PersonTest.val" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PersonTest.val" />
+        <item index="1" class="java.lang.String" itemvalue="Application.lambdaTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="980b30f9-9fae-4988-bdd1-ba4dd0512e16" name="Default" comment="" />
+      <created>1505997874638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505997874638</updated>
+      <workItem from="1505997893978" duration="5513000" />
+      <workItem from="1506049864085" duration="13564000" />
+      <workItem from="1506098615326" duration="184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PersonTest_val - 2017.09.22 at 15h 53m 40s.xml">
+      <configuration name="PersonTest.val" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19261000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3366762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49527666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6972973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1256" height="676" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lambda/lambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="92" column="69" lean-forward="false" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/maven.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <folding>
+              <marker date="1506055961309" expanded="true" signature="287:22008" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="553:882" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="2018:2090" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="2194:2372" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="2422:3114" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="2627:3091" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="2690:3070" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="3236:3870" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="3308:3847" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="3917:4873" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="3965:4852" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4306:4420" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4680:4744" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4920:5130" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4989:5103" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5266:5842" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5364:5823" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5566:5647" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5933:6532" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6033:6157" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6240:6351" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6594:6743" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6780:10316" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="7251:7458" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="7292:7440" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="7598:8145" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="7650:8128" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8213:8404" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8296:8383" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="8670:9797" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8707:9773" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8757:9757" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9071:9463" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9130:9442" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9514:9639" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9578:9616" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9833:10304" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9901:10289" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9973:10090" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9992:10070" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10111:10231" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10173:10209" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10369:15091" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10415:15076" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10495:10629" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10649:11875" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10872:11149" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11161:11276" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11295:11433" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11445:11554" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11569:11856" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11921:13408" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11960:12084" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11978:12065" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12106:12242" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12128:12219" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12308:12873" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12325:12847" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12399:12829" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12477:12606" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12499:12583" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12630:12765" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12698:12740" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12889:13394" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12961:13377" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13037:13162" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13058:13140" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13185:13315" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13251:13291" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13531:13845" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13591:13824" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13609:13679" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13698:13769" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13907:14260" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13994:14233" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14012:14082" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14101:14172" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14364:14479" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14424:14458" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14636:14667" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14732:14902" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14753:14873" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14815:14851" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14971:15015" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15213:16423" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15266:16400" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15323:15652" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15825:15892" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16487:16630" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16569:16605" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16743:18586" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16767:18564" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="17464:17868" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18197:18407" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18224:18378" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18737:19705" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18930:19689" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18978:19674" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19361:19659" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19415:19639" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19899:20055" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19918:20028" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19976:20008" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20167:21865" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20227:20500" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20619:20853" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20895:21264" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="21144:21245" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="21443:21636" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lambda/lambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="92" column="69" lean-forward="false" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lombok/lambda.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/jigsaw/package-info.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/jdk.pack/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.activation/com/sun/activation/registries/MimeTypeFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.prefs/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/Deprecated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="101" column="16" lean-forward="false" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.activation/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/jdk.packager/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/jdk.packager/com/oracle/tools/packager/mac/MacDmgBundler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/ProcessHandleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/ProcessHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="196" column="33" lean-forward="false" selection-start-line="196" selection-start-column="33" selection-end-line="196" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/jdk.jdeps/com/sun/tools/classfile/Opcode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="468" column="8" lean-forward="false" selection-start-line="468" selection-start-column="8" selection-end-line="468" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.se/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.se.ee/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1465">
+          <caret line="224" column="33" lean-forward="true" selection-start-line="224" selection-start-column="33" selection-end-line="224" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/temp/maven_repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/temp/maven_repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/go2going/lombok/lombokTestTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lombok/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/go2going/lombok/Person.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/go2going/lombok/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lombok/lombokTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/maven.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <folding>
+              <marker date="1506055961309" expanded="true" signature="287:22008" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="553:882" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="2018:2090" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="2194:2372" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="2422:3114" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="2627:3091" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="2690:3070" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="3236:3870" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="3308:3847" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="3917:4873" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="3965:4852" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4306:4420" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4680:4744" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4920:5130" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="4989:5103" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5266:5842" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5364:5823" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5566:5647" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="5933:6532" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6033:6157" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6240:6351" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6594:6743" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="6780:10316" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="7251:7458" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="7292:7440" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="7598:8145" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="7650:8128" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8213:8404" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8296:8383" ph="..." />
+              <marker date="1506055961309" expanded="false" signature="8670:9797" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8707:9773" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="8757:9757" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9071:9463" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9130:9442" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9514:9639" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9578:9616" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9833:10304" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9901:10289" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9973:10090" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="9992:10070" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10111:10231" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10173:10209" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10369:15091" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10415:15076" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10495:10629" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10649:11875" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="10872:11149" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11161:11276" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11295:11433" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11445:11554" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11569:11856" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11921:13408" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11960:12084" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="11978:12065" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12106:12242" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12128:12219" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12308:12873" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12325:12847" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12399:12829" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12477:12606" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12499:12583" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12630:12765" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12698:12740" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12889:13394" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="12961:13377" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13037:13162" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13058:13140" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13185:13315" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13251:13291" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13531:13845" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13591:13824" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13609:13679" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13698:13769" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13907:14260" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="13994:14233" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14012:14082" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14101:14172" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14364:14479" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14424:14458" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14636:14667" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14732:14902" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14753:14873" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14815:14851" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="14971:15015" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15213:16423" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15266:16400" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15323:15652" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="15825:15892" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16487:16630" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16569:16605" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16743:18586" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="16767:18564" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="17464:17868" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18197:18407" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18224:18378" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18737:19705" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18930:19689" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="18978:19674" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19361:19659" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19415:19639" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19899:20055" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19918:20028" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="19976:20008" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20167:21865" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20227:20500" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20619:20853" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="20895:21264" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="21144:21245" ph="..." />
+              <marker date="1506055961309" expanded="true" signature="21443:21636" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="true" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcode.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/temp/maven_repository/org/projectlombok/lombok/1.16.18/lombok-1.16.18-sources.jar!/lombok/RequiredArgsConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lombok/lombok.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <folding>
+              <marker date="1506067536655" expanded="true" signature="1835:1985" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/temp/java_jar/solr-5.5.3/server/solr/core2/conf/managed-schema">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="409" column="83" lean-forward="false" selection-start-line="409" selection-start-column="83" selection-end-line="409" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/go2going/lambda/lambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>testcode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
