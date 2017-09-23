@@ -4,32 +4,48 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.go2going</groupId>
+    <groupId>com.com.go2going</groupId>
     <artifactId>testcode</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <name>personalCode-parent</name>
+    <description>
+        a project from my personal test coding.
+    </description>
+    <url>http://www.com.go2going.com</url>
+    <developers>
+        <developer>
+            <id>com.go2going</id>
+            <name>Qiang Wang</name>
+            <email>bluesky33293@gmail.com</email>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>lucene</module>
+        <module>java</module>
+    </modules>
+
     <properties>
-        <maven.compiler.source>9</maven.compiler.source>
-        <maven.compiler.target>9</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-core</artifactId>
-            <version>7.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-    </dependencies>
+
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.18</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+        </dependencies>
+
+
 </project>
