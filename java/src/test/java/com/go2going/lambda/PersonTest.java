@@ -8,6 +8,9 @@ import java.util.stream.LongStream;
 
 import static org.junit.Assert.*;
 
+/**
+ * 测试加密
+ */
 public class PersonTest {
 
     public static final long[] LONGS = LongStream.rangeClosed(1, 1000).toArray();
@@ -19,6 +22,8 @@ public class PersonTest {
     @Test
     public void forkJoinTest() throws Exception {
         ForkJoinPool pool = new ForkJoinPool();
+
+
 
     }
 }
