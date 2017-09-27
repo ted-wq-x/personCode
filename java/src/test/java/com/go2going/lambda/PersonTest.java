@@ -22,7 +22,13 @@ public class PersonTest {
     @Test
     public void forkJoinTest() throws Exception {
         ForkJoinPool pool = new ForkJoinPool();
-
+        pool.submit(new RecursiveTask<Long>() {
+            //递归算法的实现，当然这个算法很简单，所以性能很差，参考该类的说明
+            @Override
+            protected Long compute() {
+                return null;
+            }
+        });
 
 
     }

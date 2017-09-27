@@ -58,7 +58,7 @@ public class InternalLambdaTest {
      * 返回一个对象，不能有参数
      */
     static void suppliersTest(){
-        Supplier<Teacher> supplier= ()-> new Teacher("ws",12);
+        Supplier<Teacher> supplier= Teacher::new;
         System.out.println(supplier.get());
     }
 

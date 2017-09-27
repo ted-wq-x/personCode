@@ -38,9 +38,9 @@ public class lambdaTest {
     }
 
     static void personLambda() {
-        Person person = Person.builder().name("ws").build();
-        String print = person.print(p -> p.getName() + ",lambda");
-        System.out.println(print);
+//        Person person = Person.builder().name("ws").build();
+//        String print = person.print(p -> p.getName() + ",lambda");
+//        System.out.println(print);
     }
 
 
@@ -100,7 +100,8 @@ public class lambdaTest {
     static Person getRandomP() {
         String random = RandomStringUtils.randomAlphabetic(5);
         Random random1 = new Random();
-        return Person.builder().name(random).age(random1.nextInt(100)).build();
+//        return Person.builder().name(random).age(random1.nextInt(100)).build();
+        return null;
     }
 
     static class Something{
