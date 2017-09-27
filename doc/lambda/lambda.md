@@ -1,4 +1,5 @@
-# [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
+# [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial),[java8-the-missing-tutorial](https://github
+.com/shekhargulati/java8-the-missing-tutoria)都是不错的参考
 
 _If you like this project, please give me a star._ &#9733;
 
