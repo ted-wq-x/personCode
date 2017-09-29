@@ -26,6 +26,8 @@
         <module>lucene</module>
         <module>java</module>
         <module>java9</module>
+        <module>validation</module>
+        <module>vertx</module>
     </modules>
 
     <dependencies>
