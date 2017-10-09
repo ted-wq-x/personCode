@@ -24,3 +24,35 @@
 ## Streams-api
 
 ## Collections 
+
+## interface enhancement
+ 
+ 总结：
+
+* Constants (until Java 1.7)
+
+* Method signatures (until Java 1.7)：方法签名=方法名+参数列表
+
+* Nested types (until Java 1.7)：嵌套类型
+
+* Default methods (since 1.8)
+
+* Static methods (since 1.8)
+
+* **Private methods (since 1.9)**
+
+* **Private static methods (since 1.9)**
+
+## Try With Resources Improvement
+
+开出来了没啊！！！
+
+```java
+void testARM_Java9() throws IOException{
+ BufferedReader reader1 = new BufferedReader(new FileReader("journaldev.txt"));
+ try (reader1) {
+   System.out.println(reader1.readLine());
+ }
+}
+```
+

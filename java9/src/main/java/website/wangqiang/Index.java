@@ -1,4 +1,4 @@
-package com.go2going.java9;
+package website.wangqiang;
 
 import website.wangqiang.justForJava9.HumanModel;
 

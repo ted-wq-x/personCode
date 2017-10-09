@@ -1,15 +1,14 @@
-package com.go2going.java9;
+package website.wangqiang;
 
-import com.go2going.lambda.model.Person;
 import org.apache.commons.lang3.RandomStringUtils;
+import website.wangqiang.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.IntStream;
+import java.util.concurrent.Flow;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.SubmissionPublisher;
 
 /**
  * 项目名称：  testcode<br>

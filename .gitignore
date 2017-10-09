@@ -1,2 +1,8 @@
 target
 /.idea/
+/.vertx/
+java9/src/main/resources/
+java9/src/test/
+validation/src/main/resources/
+vertx/src/main/resources/
+vertx/src/test/
