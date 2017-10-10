@@ -19,7 +19,6 @@ public class Glance {
 
     public static void main(String[] args) {
 
-
         //第一种执行阻塞的代码
         vertx.executeBlocking(event -> {
             try {

@@ -33,20 +33,20 @@ public class OptionalTest {
     }
 
 
-    public static void test1(){
-
-        System.out.println(ComparisonChain.start().compare(new Person("wq", "hhh", 25), new Person("scc", "hdhs", 23)
-                , Comparator.comparingInt(Person::getAge)).result());
-    }
-
-    public static void test2(){
-        LoadingCache<String, Integer> build = CacheBuilder.newBuilder().build(new CacheLoader<String, Integer>() {
-            @Override
-            public Integer load(String key) throws Exception {
-                return null;
-
-            }
-        });
-
-    }
+//    public static void test1(){
+//
+//        System.out.println(ComparisonChain.start().compare(new Person("wq", "hhh", 25), new Person("scc", "hdhs", 23)
+//                , Comparator.comparingInt(Person::getAge)).result());
+//    }
+//
+//    public static void test2(){
+//        LoadingCache<String, Integer> build = CacheBuilder.newBuilder().build(new CacheLoader<String, Integer>() {
+//            @Override
+//            public Integer load(String key) throws Exception {
+//                return null;
+//
+//            }
+//        });
+//
+//    }
 }

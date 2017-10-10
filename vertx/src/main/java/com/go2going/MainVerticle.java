@@ -2,6 +2,7 @@ package com.go2going;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Future;
+import io.vertx.core.Vertx;
 
 /**
  * 项目名称：  testcode<br>
@@ -18,6 +19,7 @@ public class MainVerticle extends AbstractVerticle {
 //        super.start(startFuture);
         System.out.println("starting----------------------");
         startFuture.complete();
+        
     }
 
     @Override
