@@ -44,6 +44,14 @@ public class Provider {
         this.hostNode = this.businessNode+hostNode;
     }
 
+    public String getAllPath(){
+        return this.hostNode;
+    }
+
+    public ZooKeeper getZooKeeper(){
+        return this.zooKeeper;
+    }
+
 
     /**
      * 需要确认上层节点是否存在，上层节点都是持久化的，最底层的是EPHEMERAL
@@ -90,6 +98,14 @@ public class Provider {
         String serviceName = new String(data);
 
         return host + serviceName;
+    }
+
+    public void setData(String value,String path) {
+        try {
+            zooKeeper.setData(path, value != null ? value.getBytes() : null, -1);
+        } catch (KeeperException | InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
