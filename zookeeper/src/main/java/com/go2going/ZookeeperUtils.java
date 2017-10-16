@@ -37,7 +37,7 @@ public class ZookeeperUtils {
 
     private ZookeeperUtils(){}
 
-    static  {
+     static  {
         JsonParser jsonParser = new JsonParser();
         InputStream resourceAsStream = ZookeeperUtils.class.getResourceAsStream("/config.json");
         JsonElement parse = jsonParser.parse(new InputStreamReader(resourceAsStream));
