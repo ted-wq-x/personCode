@@ -13,10 +13,7 @@ import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.search.IndexSearcher;
-import org.apache.lucene.search.Query;
-import org.apache.lucene.search.ScoreDoc;
-import org.apache.lucene.search.TopDocs;
+import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.QueryBuilder;
@@ -42,7 +39,7 @@ public class SmartCn {
 
             IndexWriter writer = new IndexWriter(directory, config);
             Document document = new Document();
-            document.add(new TextField("name","我的名字叫王强", Field.Store.YES));
+            document.add(new TextField("name","王强", Field.Store.YES));
             document.add(new StoredField("age",25));
             writer.addDocument(document);
             writer.commit();
@@ -59,7 +56,8 @@ public class SmartCn {
 //            QueryBuilder phraseQuery = new QueryBuilder(new SmartChineseAnalyzer());
             QueryBuilder phraseQuery = new QueryBuilder(new SynonymAnalyzer());
 
-            Query query = phraseQuery.createPhraseQuery("name", "name");
+            Query query = phraseQuery.createPhraseQuery("name", "王强");
+//            Query query = new MatchAllDocsQuery();
             TopDocs search = searcher.search(query, 1000);
 
             ScoreDoc[] scoreDocs = search.scoreDocs;

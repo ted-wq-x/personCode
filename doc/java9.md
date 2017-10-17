@@ -25,34 +25,73 @@
 
 ## Collections 
 
-## interface enhancement
- 
- 总结：
+-----
 
-* Constants (until Java 1.7)
+## java9中的包结构
 
-* Method signatures (until Java 1.7)：方法签名=方法名+参数列表
+1. java.activation：JavaBeans Activation Framework (JAF) API,关于什么是jaf，[参考文章](https://stackoverflow.com/questions/3067164/what-is-jaf-what-is-its-purpose)
+2. java.base：java的基础内容，也是关注的重点。
+3. java.compiler：定义语言模型，注释处理和Java编译器API。
+4. java.corba：java语言的OMG corba(公共对象请求代理体系cobra是omg组织的一个规范)和RMI-IIOP相关api。 Java Remote Method Invocation (RMI) mechanism and the Common Object Request Broker Architecture (CORBA)。
+[参考文章](http://www.oracle.com/technetwork/articles/javase/rmi-corba-136641.html)以及[维基百科](https://zh.wikipedia.org/wiki/CORBA)
+5. java.datatransfer：定义应用程序之间如何传递数据的api
+6. java.desktop：awt和swing相关内容
+7. java.instrument：定义代理程序运行在jvm上的服务
+8. java.jnlp：java network launching protocol,java网络执行协议文件，是java提供的一种可以通过浏览器直接执行java应用程序的途径，它使你可以直接通过一个网页上的url链接打开一个java应用程序。
+9. java.logging：java的日志api
+10. java.management：java的jmx相关api
+11. java.management.rmi：jmx的rmi形式
+12. java.naming：java的jdni(Java Naming and Directory Interface)相关接口
+13. java.prefs：定义Preferences API.Preferences用来存储应用程序的配置数据，windows在注册表中，linux在用户目录的home文件夹下的隐藏文件中
+14. java.rmi：远程方法调用
+15. java.scripting：java脚本语言的api接口
+16. java.se 空的
+17. java.se.ee 空的
+18. java.security.jgss：java版本的 Generic Security Services API (GSS-API)
+19. java.security.sasl：java版本的Simple Authentication and Security Layer(SASL)
+20. java.smartcardio： Java Smart Card I/O API
+21. java.sql：jdbc
+22. java.sql.rowset：jdbc的rowset相关api
+23. java.transaction：jta的子类实现从而支持corba
 
-* Nested types (until Java 1.7)：嵌套类型
+----
 
-* Default methods (since 1.8)
+xml相关
 
-* Static methods (since 1.8)
+24. java.xml：定义用于XML处理的Java API（JAXP），Streaming API for XML（StAX），Simple API for XML（SAX）和W3C文档对象模型（DOM）API。
+25. java.xml.bind：定义 Java Architecture for XML Binding (JAXB) API
+26. java.xml.crypto：xml加密的api
+27. java.xml.ws：基于xml的webservice相关api
+28. java.sml.ws.annotation：注解
 
-* **Private methods (since 1.9)**
+----
 
-* **Private static methods (since 1.9)**
+javafx ui相关的工具，比swing和awt好使点
 
-## Try With Resources Improvement
+29. javafx.base
+30. javafx.controls
+31. javafx.deploy
+32. javafx.fxml
+33. javafx.graphics
+34. javafx.media
+35. javafx.swing
+36. javafx.web
 
-开出来了没啊！！！
+-----
 
-```java
-void testARM_Java9() throws IOException{
- BufferedReader reader1 = new BufferedReader(new FileReader("journaldev.txt"));
- try (reader1) {
-   System.out.println(reader1.readLine());
- }
-}
-```
+37. jdk.accessibility：辅助工具
+37. jdk.attach：attach api
+38. jdk.charsets：提供java.base中不存在的charset
+39. jdk.compiler：java编译器相关的脚本命令
+
+----
+
+jdk提供的加密
+
+40. jdk.crypto.cryptoki：
+41. jdk.crypto.ec：
+42. jdk.crypto.mscapi：
+
+----
+大致看了下jdk开头的包，目前来说我是看不懂
 
