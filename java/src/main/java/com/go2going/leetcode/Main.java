@@ -7,11 +7,6 @@ package com.go2going.leetcode;
 public class Main {
     public static void main(String[] args) {
 
-        String a = "A";
-        char ca = 'A';
-
-        System.out.println((char)65);
-        System.out.println(getUnicode("azAZ"));
     }
 
     public static String getUnicode(String str) {
