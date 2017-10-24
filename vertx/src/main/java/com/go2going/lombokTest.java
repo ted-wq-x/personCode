@@ -1,7 +1,6 @@
-package com.go2going.lombok;
+package com.go2going;
 
 import lombok.extern.java.Log;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.logging.Level;
 
@@ -13,18 +12,19 @@ import java.util.logging.Level;
  * @author wangqiang
  * 创建时间：  2017/9/22 0022 15:49
  */
-
+@Log
 public class lombokTest {
 
 
 
     public  void say(){
-
+        log.log(Level.INFO, "Hello");
     }
 
 
     public static void main(String[] args) {
-        System.out.println(Integer.highestOneBit(10));
-        System.out.println(~10);
+        lombokTest test = new lombokTest();
+
+        test.say();
     }
 }
