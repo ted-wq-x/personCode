@@ -2,3 +2,5 @@ target
 /.idea/
 /.vertx/
 /target/
+/out/
+/kt/
