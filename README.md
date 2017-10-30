@@ -10,3 +10,7 @@
 * go的学习
 * zookeeper的简单实践
 * java9的新特性
+* leetCode 每日任务
+* kotlin的学习
+* 设计模式入门
+
