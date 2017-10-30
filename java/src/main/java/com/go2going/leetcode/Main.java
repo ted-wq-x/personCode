@@ -7,6 +7,10 @@ package com.go2going.leetcode;
 public class Main {
     public static void main(String[] args) {
 
+        String str = "[a-z]{2}";
+        Runnable runnable = () -> {
+
+        };
     }
 
     public static String getUnicode(String str) {
@@ -25,30 +29,31 @@ public class Main {
     }
 
 
-
-
     public int longestUnivaluePath(TreeNode root) {
-        int[] res=new int[1];
+        int[] res = new int[1];
 
-        if(root!=null){
-            test(root,res);
+        if (root != null) {
+            test(root, res);
         }
         return res[0];
     }
 
-      public class TreeNode {
-     int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-    public int test(TreeNode root,int[] res){
-        int l=root.left!=null?test(root.left,res):0;
-        int r=root.right!=null?test(root.right,res):0;
-        int left=root.left!=null&&root.left.val==root.val?l+1:0;
-        int right=root.right!=null&&root.right.val==root.val?r+1:0;
-        res[0] = Math.max(res[0],left+right)  ;
-        return   Math.max(left,right)    ;
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+    public int test(TreeNode root, int[] res) {
+        int l = root.left != null ? test(root.left, res) : 0;
+        int r = root.right != null ? test(root.right, res) : 0;
+        int left = root.left != null && root.left.val == root.val ? l + 1 : 0;
+        int right = root.right != null && root.right.val == root.val ? r + 1 : 0;
+        res[0] = Math.max(res[0], left + right);
+        return Math.max(left, right);
     }
 }
