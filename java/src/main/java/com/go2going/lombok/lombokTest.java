@@ -1,9 +1,6 @@
 package com.go2going.lombok;
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
-
-import java.util.logging.Level;
 
 /**
  * 项目名称：  testcode
@@ -13,18 +10,16 @@ import java.util.logging.Level;
  * @author wangqiang
  * 创建时间：  2017/9/22 0022 15:49
  */
-
+@Slf4j
 public class lombokTest {
 
 
 
     public  void say(){
-
     }
 
 
     public static void main(String[] args) {
-        System.out.println(Integer.highestOneBit(10));
-        System.out.println(~10);
+        System.out.println(lombokTest.class.getModifiers());
     }
 }
