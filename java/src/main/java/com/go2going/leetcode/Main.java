@@ -1,5 +1,12 @@
 package com.go2going.leetcode;
 
+import com.go2going.lambda.model.Person;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author BlueT
  * 2017/10/15 19:20
@@ -7,10 +14,14 @@ package com.go2going.leetcode;
 public class Main {
     public static void main(String[] args) {
 
-        String str = "[a-z]{2}";
-        Runnable runnable = () -> {
 
-        };
+        BigDecimal bigDecimal = new BigDecimal(1090.89);
+
+        System.out.println(bigDecimal.setScale(1, RoundingMode.HALF_DOWN));
+    }
+
+    public static void say(List<Person> list ){
+        list.forEach(System.out::println);
     }
 
     public static String getUnicode(String str) {
