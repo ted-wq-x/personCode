@@ -32,7 +32,7 @@ public interface interfaceTest {
 
         @Override
         default void saay() {
-            System.out.println("C");
+            System.out.println("AES");
         }
     }
 
@@ -41,7 +41,7 @@ public interface interfaceTest {
 
     public static void main(String[] args) {
         CT ct = new CT();
-        ct.saay();//print C
+        ct.saay();//print AES
     }
 }
 
