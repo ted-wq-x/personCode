@@ -1,7 +1,5 @@
 package com.go2going.lombok;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * 项目名称：  testcode
  * 类名称：  lombokTest
@@ -10,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * @author wangqiang
  * 创建时间：  2017/9/22 0022 15:49
  */
-@Slf4j
+//@Slf4j
 public class lombokTest {
 
 
