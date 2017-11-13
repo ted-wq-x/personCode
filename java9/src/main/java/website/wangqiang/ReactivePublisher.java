@@ -1,6 +1,5 @@
 package website.wangqiang;
 
-import org.apache.commons.lang3.RandomStringUtils;
 import website.wangqiang.model.Person;
 
 import java.util.ArrayList;
@@ -94,8 +93,8 @@ public class ReactivePublisher{
         List<Person> personLIst = new ArrayList<>();
         Random random = new Random();
         for (int i = 0; i < size; i++) {
-            Person p = new Person(RandomStringUtils.randomAlphanumeric(5), random.nextInt());
-            personLIst.add(p);
+//            Person p = new Person(RandomStringUtils.randomAlphanumeric(5), random.nextInt());
+//            personLIst.add(p);
         }
 
         return personLIst;

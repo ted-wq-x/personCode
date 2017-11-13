@@ -2,7 +2,6 @@ package com.go2going;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.VertxOptions;
-import io.vertx.core.eventbus.MessageConsumer;
 
 /**
  * 项目名称：  testcode<br>

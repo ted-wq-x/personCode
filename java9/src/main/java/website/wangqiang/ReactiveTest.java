@@ -1,7 +1,6 @@
 package website.wangqiang;
 
 
-import org.apache.commons.lang3.RandomStringUtils;
 import website.wangqiang.model.Person;
 
 import java.util.ArrayList;
@@ -44,7 +43,8 @@ public class ReactiveTest {
     }
 
     private static Person product(){
-        return new Person(RandomStringUtils.randomAlphanumeric(5), random.nextInt());
+//        return new Person(RandomStringUtils.randomAlphanumeric(5), random.nextInt());
+        return null;
     }
 
 

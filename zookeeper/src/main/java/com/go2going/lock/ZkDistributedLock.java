@@ -2,7 +2,6 @@ package com.go2going.lock;
 
 import com.go2going.ZookeeperUtils;
 import com.go2going.naming.Provider;
-import com.google.common.collect.Collections2;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
