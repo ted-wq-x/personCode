@@ -21,12 +21,11 @@ public class LeetCode_674 {
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > pre) {
                 maxLength++;
-                pre = nums[i];
             } else {
-                pre = nums[i];
                 max = Math.max(max, maxLength);
                 maxLength = 1;
             }
+            pre = nums[i];
         }
 
         max = Math.max(max, maxLength);
