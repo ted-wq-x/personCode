@@ -1,9 +1,10 @@
 package com.go2going.leetcode;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Arrays;
 
 /**
+ * https://www.youtube.com/watch?v=YYduNJfzWaA&t=329s
+ * hard难度，使用了dp和greedy算法
  * @author BlueT
  * 2017/11/15 22:46
  */
@@ -39,7 +40,7 @@ public class LeetCode_321 {
      * @param ints2
      * @return
      */
-    public int[] merge(Integer[] ints1, Integer[] ints2) {
+    private int[] merge(int[] ints1, int[] ints2) {
 
         int i1 = ints1.length;
         int i2 = ints2.length;
@@ -49,12 +50,10 @@ public class LeetCode_321 {
         int i2Index = 0;
 
         for (int i = 0; i < i1 + i2; i++) {
-            if (i2Index >= i2 && i1Index < i1) {
+            if (geater(ints1, ints2, i1Index, i2Index)) {
                 arr[i] = ints1[i1Index++];
-            } else if (i2Index < i2 && i1Index >= i1) {
-                arr[i] = ints2[i2Index++];
             } else {
-                arr[i] = ints1[i1Index] > ints2[i2Index] ? ints1[i1Index++] : ints2[i2Index++];
+                arr[i] = ints2[i2Index++];
             }
         }
 
@@ -63,50 +62,87 @@ public class LeetCode_321 {
 
 
     /**
-     * 取和最大的数组
+     * 在相等的情况下，需要比较一下个值
+     * @param ints1
+     * @param ints2
+     * @param index1
+     * @param index2
+     * @return 当ints1>ints2时，返回true
+     */
+    private boolean geater(int[] ints1, int[] ints2, int index1, int index2) {
+        //数组都没有越界，且相等
+        while (index1 < ints1.length && index2 < ints2.length && ints1[index1] == ints2[index2]) {
+            index1++;
+            index2++;
+        }
+        //不相等，但是得考虑index是否为length，当相等是，表示前面的数都是相等的，那么就取另一个
+        return index2 == ints2.length || (index1 < ints1.length && ints1[index1] > ints2[index2]);
+    }
+
+    /**
+     * 最大的数组，比较的是每一位上的值，如果相等就比较下一位，只要大就返回大的那个数组
+     *
      * @param ints
      * @param ints2
      * @return
      */
-    public int[] max(int[] ints,int[] ints2) {
-        int max = 0;
-        for (int anInt : ints) {
-            max += anInt;
+    private int[] max(int[] ints, int[] ints2) {
+        int length = ints.length;
+
+        for (int i = 0; i < length; i++) {
+            if (ints[i] == ints2[i]) {
+                continue;
+            } else if (ints[i] > ints2[i]) {
+                return ints;
+            } else {
+                return ints2;
+            }
         }
 
-        int temp = 0;
-        for (int i : ints2) {
-            temp += i;
-        }
-
-        return max > temp ? ints : ints2;
+        return ints;
     }
 
 
     /**
-     * 生成最大数组
+     * 生成最大数组，dp算法
+     *
      * @param num
      * @param k
      * @return
      */
-    public Integer[] getSome(int[] num, int k) {
+    private int[] getSome(int[] num, int k) {
 
         if (k == 0) {
-            return new Integer[]{};
+            return new int[]{};
         }
-        int canDropNum = num.length-k;
-        LinkedList<Integer> list = new LinkedList<>();
-        for (int i : num) {
-            //最多能够舍弃的元素
-            while (!list.isEmpty() && list.getLast() < i && canDropNum-- > 0) {
-                list.removeLast();
-            }
 
-            list.add(i);
+        //最多能丢弃的个数
+        int canDropNum = num.length - k;
+        // LinkedList<Integer> list = new LinkedList<>();
+        // 使用数组效率高
+
+        int[] arr = new int[num.length];
+        int curIndex = 0;
+
+        for (int i : num) {
+            //最多能够舍弃的元素，有元素能够丢弃，最后一个元素小于i，丢弃的个数不能超过限制
+            while (curIndex > 0 && arr[curIndex - 1] < i && canDropNum-- > 0) {
+                arr[curIndex] = 0;
+                curIndex--;
+            }
+            arr[curIndex++] = i;
         }
-        List<Integer> list1 = list.subList(0, k);
-        Integer[] arr = new Integer[k];
-        list1.toArray(arr);
-        return arr;
+
+        //arr中的元素个数有可能大于k，取最前面几个
+        int[] c = new int[k];
+        System.arraycopy(arr, 0, c, 0, k);
+        return c;
+    }
+
+    public static void main(String[] args) {
+        LeetCode_321 leetCode_321 = new LeetCode_321();
+        int[] ints = leetCode_321.maxNumber(new int[]{6, 7}, new int[]{6, 0, 4}, 5);
+
+        System.out.println(Arrays.toString(ints));
     }
 }
