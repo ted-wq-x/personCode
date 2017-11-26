@@ -151,8 +151,6 @@ public class Main {
                 returnArray[i] = array2[index2++];
             }
         }
-
-
         return returnArray;
     }
 }
