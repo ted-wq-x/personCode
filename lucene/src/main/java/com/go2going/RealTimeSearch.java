@@ -1,9 +1,11 @@
 package com.go2going;
 
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
-import org.apache.lucene.document.Document;
-import org.apache.lucene.index.IndexWriter;
-import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.document.*;
+import org.apache.lucene.index.*;
+import org.apache.lucene.queries.function.FunctionValues;
+import org.apache.lucene.queries.function.ValueSource;
+import org.apache.lucene.queries.function.docvalues.FloatDocValues;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
@@ -15,6 +17,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 项目名称：  testcode<br>
@@ -90,7 +93,9 @@ public class RealTimeSearch {
         IndexSearcher searcher = null;
         try {
             searcher = manager.acquire();
-            TopDocs name = searcher.search(new QueryParser("name", new SmartChineseAnalyzer()).parse("王强"), 10);
+            Query parse = new QueryParser("name", new SmartChineseAnalyzer()).parse("王强");
+
+            TopDocs name = searcher.search(parse, 10);
 
             for (ScoreDoc scoreDoc : name.scoreDocs) {
                 Document doc = searcher.doc(scoreDoc.doc);
@@ -112,9 +117,13 @@ public class RealTimeSearch {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        /*for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 10; i++) {
             Document document = new Document();
             document.add(new TextField("name","王强", Field.Store.YES));
+            document.add(new FloatPoint("price_1",12+i));
+            document.add(new FloatPoint("price_2",16+i));
+            document.add(new FloatPoint("price_3",14+i));
+            document.add(new FloatPoint("price_4",15+i));
             document.add(new StringField("id",i+"", Field.Store.YES));
             index(document);
 
@@ -123,7 +132,6 @@ public class RealTimeSearch {
            search();
             System.out.println("-----------------------------");
         }
-*/
 
         search();
     }

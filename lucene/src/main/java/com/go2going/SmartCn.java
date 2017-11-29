@@ -62,6 +62,7 @@ public class SmartCn {
 
             Query query = phraseQuery.createPhraseQuery("name", "王强");
 //            Query query = new MatchAllDocsQuery();
+            
             TopDocs search = searcher.search(query, 1000);
 
             ScoreDoc[] scoreDocs = search.scoreDocs;
