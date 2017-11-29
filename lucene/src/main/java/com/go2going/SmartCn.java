@@ -19,6 +19,8 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.QueryBuilder;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -31,12 +33,12 @@ import java.util.Set;
  */
 public class SmartCn {
 
-    private static final String dir = "C:\\Users\\BlueT\\workspace\\personCode\\lucene\\src\\main\\resources\\luceneIndexDir";
+    private static final URL dir = SmartCn.class.getClass().getResource("/luceneIndexDir");
+
+
     public static void writer()  {
-        try (Directory directory = FSDirectory.open(Paths.get(dir))){
+        try (Directory directory = FSDirectory.open(Paths.get(dir.toURI()))){
             IndexWriterConfig config = new IndexWriterConfig(new SmartChineseAnalyzer());
-
-
             IndexWriter writer = new IndexWriter(directory, config);
             Document document = new Document();
             document.add(new TextField("name","王强", Field.Store.YES));
@@ -45,12 +47,14 @@ public class SmartCn {
             writer.commit();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
         }
     }
 
 
     public static void reader()  {
-        try (Directory directory = FSDirectory.open(Paths.get(dir));DirectoryReader open = DirectoryReader.open(directory);){
+        try (Directory directory = FSDirectory.open(Paths.get(String.valueOf(dir))); DirectoryReader open = DirectoryReader.open(directory);){
 
             IndexSearcher searcher = new IndexSearcher(open);
 //            QueryBuilder phraseQuery = new QueryBuilder(new SmartChineseAnalyzer());
@@ -110,6 +114,8 @@ public class SmartCn {
         factory.inform(new FilesystemResourceLoader(Paths.get("C:\\Users\\BlueT\\workspace\\personCode\\lucene\\src\\main\\resources")));
         return factory.create(inputStream);
     }
+
+
 
 
     public static void main(String[] args) throws IOException {
