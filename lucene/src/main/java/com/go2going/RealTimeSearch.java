@@ -54,11 +54,9 @@ public class RealTimeSearch {
                     if (writer != null) {
                         writer.close();
                     }
-
                     if (manager != null) {
                         manager.close();
                     }
-
                     if (timeReopenThread != null) {
                         timeReopenThread.close();
                     }
