@@ -20,6 +20,9 @@ public class Main {
         System.out.println(bigDecimal.setScale(1, RoundingMode.HALF_DOWN));
     }
 
+
+
+
     public static void say(List<Person> list ){
         list.forEach(System.out::println);
     }
