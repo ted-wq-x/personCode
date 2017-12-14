@@ -1,9 +1,13 @@
 package com.go2going;
 
-import com.go2going.bean.Human;
-import com.go2going.config.Configuration;
+import com.go2going.bean.Product;
+import com.go2going.bean.User;
+import com.go2going.config.MyConfiguration;
+import com.go2going.dao.ProductDao;
+import com.go2going.dao.UserDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.util.Assert;
 
 /**
  * 项目名称：  testcode<br>
@@ -19,8 +23,20 @@ public class Start {
         /**
          * 使用spring的ioc
          */
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Configuration.class);
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MyConfiguration.class);
+      /*  UserDao bean = applicationContext.getBean(UserDao.class);
+        System.out.println(bean.getUserIdByName(new User("wsa")));
+        System.out.println(bean.getUserIdByName(new User("wsa")));
+        System.out.println(bean.getUserIdByName(new User("wsa1",12)));
+        System.out.println(bean.getUserIdByName(new User("wsa1",12)));
+        System.out.println(bean.getUserIdByName(new User("wsa1",22)));
+        System.out.println(bean.getUserIdByName(new User("wsa1",22)));
 
-
+        System.out.println("---------------------------------------------");
+        System.out.println(bean.getUserIdByNameTest(new User("wsa2",22)));
+        System.out.println(bean.getUserIdByNameTest(new User("wsa2",22)));
+*/
+        ProductDao bean1 = applicationContext.getBean(ProductDao.class);
+        System.out.println(bean1.findById(12));
     }
 }

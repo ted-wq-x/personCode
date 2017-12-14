@@ -21,11 +21,11 @@ public class MyInitializer implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object o, String s) throws BeansException {
-        return null;
+        return o;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object o, String s) throws BeansException {
-        return null;
+        return o;
     }
 }
