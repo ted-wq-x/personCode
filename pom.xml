@@ -30,7 +30,6 @@
         <module>vertx</module>
         <module>zookeeper</module>
         <module>gof</module>
-        <module>spring</module>
     </modules>
 
     <dependencies>
