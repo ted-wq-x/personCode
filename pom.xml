@@ -22,11 +22,16 @@
         </developer>
     </developers>
 
+    <properties>
+        <maven.compiler.release>1.8</maven.compiler.release>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <modules>
         <module>lucene</module>
         <module>java</module>
         <module>java9</module>
-        <module>validation</module>
         <module>vertx</module>
         <module>zookeeper</module>
         <module>gof</module>

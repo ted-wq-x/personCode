@@ -14,3 +14,11 @@
 * kotlin的学习
 * 设计模式入门
 
+-----
+
+新的技术
+
+* joda-time：日期处理工具   
+* Metrics：jvm上实时监控类库，很多项目都在使用，如Hadoop，kafka，spark，jStorm，dubbo等等
+* Caffeine：一个高性能的 Java 缓存库。
+* HikariCP：高性能的数据库连接池
