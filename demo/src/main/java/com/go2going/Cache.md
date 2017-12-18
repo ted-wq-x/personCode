@@ -1,0 +1,16 @@
+# Spring Cache
+
+在Spring-boot当中使用spring cache结合redis，总结下遇到的坑！
+
+1. 对于RedisCacheManager对象中使用的对象，如果代码里有afterPropertiesSet方法，那么就不能直接new，而是使用@Bean的方式。且这个对象是
+总的配置中心，相关的配置很多，有不少我也没用过，还是得看代码注释！
+2. Spring-boot上得使用@EnableCaching注解。在遇到使用缓存的地方使用相应的注解，如@Cacheable，还有其他的，具体怎么用看代码注释。
+用到的注解的位置在spring-context包中的org.springframework.cache.annotation下。
+3. 缓存对象的序列化问题,在使用StringRedisSerializer序列化方式是如果类型不是string则会抛出ClassCastException，所有这个类封装的不是很好，使用是时要注意。
+4. 在使用jxm进行动态日志级别调整时，注意你所使用的是哪个日志框架别调整错了，例如java.util.log和ch.qos.logback.classic中的就不是一个东西。
+5. 在使用RedisCacheManager是需要自定义写参数，用到了RedisTemplate,由于错误的使用了注解导致注入的对象不是我创建的对象(我更改了我所创建的redisTemplate的名称)，而且不知道哪里的代码创建了
+redisTemplate，从而导致我在redisTemplate设置的参数全都失效，而在内存中存在两个redisTemplate。当我创建的对象的名称是redisTemplate时，就不会再创建了，
+此时内存中只有一个redisTemplate。所以在使用@Bean创建对象是需要注入别的对象，只能用@Qualifier指定参数名称，默认使用的是对象类型。
+
+
+总的来说，遇到参数注入的对象和我创建的不是一个对象时所遇到的错误还是对spring的注解使用不是很了解造成的！

@@ -1,4 +1,4 @@
-package com.go2going;
+package com.go2going.validation;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
