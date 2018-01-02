@@ -12,22 +12,26 @@ import java.util.List;
  * 创建时间：  2017/12/29 0029 16:24
  */
 public class LeetCode_54 {
+
+
+    /**
+     * 这种方式不是很好，使用边界进行判断比较快，这题不难只是有点弯弯绕
+     * @param matrix
+     * @return
+     */
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
         int length;
-        if (matrix == null || (length=matrix.length) == 0) {
+        if (matrix == null || (length = matrix.length) == 0) {
             return list;
         }
-        int  height = matrix[0].length;
+        int height = matrix[0].length;
 
-        int i = 0, j = 0,x=length,y=height;
-        //起点
-        int indexi=0,indexj=0;
+        int i = 0, j = 0, x = length, y = height;
         String cur = "d";//wsad
         boolean[][] ii = new boolean[length][height];
-        boolean isOk = true;
-        while (isOk) {
-            if (!ii[i][j]) {
+        while (true) {
+            if (j < y && !ii[i][j]) {
                 list.add(matrix[i][j]);
                 ii[i][j] = true;
             } else {
@@ -37,38 +41,38 @@ public class LeetCode_54 {
 
             switch (cur) {
                 case "d":
-                    if (j < x - 1) {
-                        j++;break;
+                    j++;
+                    if (j < y && !ii[i][j]) {
+                        break;
                     } else {
+                        j--;
                         cur = "s";
                     }
                 case "s":
-                    if (i < y - 1) {
-                        i++;
+                    i++;
+                    if (i < x && !ii[i][j]) {
+
                         break;
                     } else {
+                        i--;
                         cur = "a";
                     }
                 case "a":
-                    if (j > indexj) {
-                        j--;break;
+                    j--;
+                    if (j >= 0 && !ii[i][j]) {
+                        break;
                     } else {
+                        j++;
                         cur = "w";
                     }
                 case "w":
-                    if (i > indexi+1) {
-                        i--;break;
+                    i--;
+                    if (i >= 0 && !ii[i][j]) {
+                        break;
                     } else {
+                        i++;
                         j++;
                         cur = "d";
-                        y = y - 1;
-                        indexi = indexi + 1;
-                        indexj = indexj + 1;
-                        x = x - 1;
-                        if (y <= 0 || indexi <= 0 || indexj <= 0 || x <= 0) {
-                            isOk = false;
-                            break;
-                        }
                     }
             }
         }
@@ -77,7 +81,7 @@ public class LeetCode_54 {
 
     public static void main(String[] args) {
         LeetCode_54 leetCode_54 = new LeetCode_54();
-        List<Integer> list = leetCode_54.spiralOrder(new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}});
+        List<Integer> list = leetCode_54.spiralOrder(new int[][]{{1}});
 
         System.out.println(list);
     }
@@ -88,8 +92,7 @@ public class LeetCode_54 {
      * @param removeIndex
      * @return
      */
-    void move(int[][] matrix, int removeIndex,List<Integer> list) {
-
+    void move(int[][] matrix, int removeIndex, List<Integer> list) {
 
     }
 
