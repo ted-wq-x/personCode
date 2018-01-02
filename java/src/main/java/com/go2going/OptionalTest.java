@@ -1,6 +1,11 @@
 package com.go2going;
 
 
+import org.junit.Test;
+
+import java.util.SortedMap;
+import java.util.TreeMap;
+
 /**
  * 项目名称：  testcode<br>
  * 类名称：  OptionalTest<br>
@@ -10,26 +15,13 @@ package com.go2going;
  * 创建时间：  2017/9/30 0030 17:03
  */
 public class OptionalTest {
+    @Test
+    public void testClassLoad(){
+        ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
 
-    public static void main(String[] args) {
+        System.out.println(contextClassLoader);
+        System.out.println(contextClassLoader.getParent());
 
     }
 
-
-//    public static void test1(){
-//
-//        System.out.println(ComparisonChain.start().compare(new Person("wq", "hhh", 25), new Person("scc", "hdhs", 23)
-//                , Comparator.comparingInt(Person::getAge)).result());
-//    }
-//
-//    public static void test2(){
-//        LoadingCache<String, Integer> build = CacheBuilder.newBuilder().build(new CacheLoader<String, Integer>() {
-//            @Override
-//            public Integer load(String key) throws Exception {
-//                return null;
-//
-//            }
-//        });
-//
-//    }
 }

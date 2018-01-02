@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -41,6 +43,18 @@ public class IndexController {
 
     @Resource
     private RedisTemplate redisTemplate;
+
+    @RequestMapping("/index")
+    public String indexHtml(@RequestParam String name, HttpServletResponse response) {
+        log.debug("BackKom indexHtml method para:name={}", name);
+        response.addCookie(new Cookie("name",name));
+        return "index";
+    }
+
+    @RequestMapping("/indexHtmlRe")
+    public void indexHtmlRe(@CookieValue String name) {
+        log.debug("BackKom indexHtmlRe method cookie para:name={}", name);
+    }
 
     @RequestMapping("/hello")
     @ResponseBody
