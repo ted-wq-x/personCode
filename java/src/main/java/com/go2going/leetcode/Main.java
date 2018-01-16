@@ -15,12 +15,19 @@ public class Main {
     public static void main(String[] args) {
 
 
-        BigDecimal bigDecimal = new BigDecimal(1090.89);
+        int i = 2;
+        int[] num = {1, 2, 3};
 
-        System.out.println(bigDecimal.setScale(1, RoundingMode.HALF_DOWN));
+        swap(num, i--, 2);
+
+        System.out.println(i);
     }
 
-
+    private static void swap(int[] num, int i, int j) {
+        int temp = num[i];
+        num[i] = num[j];
+        num[j] = temp;
+    }
 
 
     public static void say(List<Person> list ){
