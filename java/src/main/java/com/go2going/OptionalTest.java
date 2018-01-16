@@ -3,6 +3,8 @@ package com.go2going;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
@@ -17,11 +19,10 @@ import java.util.TreeMap;
 public class OptionalTest {
     @Test
     public void testClassLoad(){
-        ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
 
-        System.out.println(contextClassLoader);
-        System.out.println(contextClassLoader.getParent());
 
+        
     }
+
 
 }
