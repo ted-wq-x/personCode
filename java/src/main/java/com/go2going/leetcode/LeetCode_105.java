@@ -66,8 +66,9 @@ public class LeetCode_105 {
 
         int x = pre[length++];
         TreeNode node = new TreeNode(x);
-        int i = preS;
-        for (; i <= preE; i++) {
+        //修改遍历的顺序，性能从26ms到2ms
+        int i =preE ;
+        for (; i >= preS; i--) {
             if (in[i] == x) {
                 break;
             }
