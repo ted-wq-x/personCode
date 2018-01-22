@@ -12,3 +12,4 @@
 * 建造者模式（Builder）
 * 原型模式（Prototype）
 * 单例模式（Singleton）
+* 链式调用（ChainBuilder），好像不能算是一个设计模式，主要是做个笔记
