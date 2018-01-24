@@ -20,5 +20,7 @@
 
 * joda-time：日期处理工具   
 * Metrics：jvm上实时监控类库，很多项目都在使用，如Hadoop，kafka，spark，jStorm，dubbo等等
+* pinpoint：分布式环境中的性能监测工具
 * Caffeine：一个高性能的 Java 缓存库。
 * HikariCP：高性能的数据库连接池
+* mockito：测试框架
