@@ -39,3 +39,24 @@ BST:二叉树上又加了个搜索的限制。其要求：每个节点比其左�
 3. 分治算法
 4. 深度优先搜索(dfs=>Depth-first search)：[wiki](https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
 5. 回溯算法
+
+
+
+# 常见算法分类
+
+1. 动态规划 (Dynamic programming)
+1. 递归 (Recursion) 
+1. 设计/数据结构 (Design/Data Structure)
+1. 树 (Binary Tree) 
+1. 搜索 (Search)
+1. 图 (graph) 
+1. 哈希表 (HashTable) 
+1. 贪心 (Greedy)
+1. 链表 (Linked List)
+1. 数学题 (Math) 
+1. 几何 (Geometry)
+1. 字符串 (String)
+1. 模拟 (Simulation) 
+1. 分治 (Divide and Conquer) 
+1. 二分搜索(Binary Search)
+1. Bit (位运算)

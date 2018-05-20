@@ -1,6 +1,6 @@
 package com.go2going.spi;
 
-import com.go2going.MySpiUtils;
+// import com.go2going.MySpiUtils;
 
 /**
  * 项目名称：  testcode<br>
@@ -12,6 +12,6 @@ import com.go2going.MySpiUtils;
  */
 public class MySpiTest {
     public static void main(String[] args) {
-        MySpiUtils.println("王强");
+        // MySpiUtils.println("王强");
     }
 }
