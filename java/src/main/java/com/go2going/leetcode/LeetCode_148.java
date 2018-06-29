@@ -11,7 +11,7 @@ package com.go2going.leetcode;
 public class LeetCode_148 {
 
     /**
-     * 链表排序，时间复杂度(n log n)，思想类似二分法，进行拆分排序，后进行合并
+     * 链表排序，时间复杂度(n logging n)，思想类似二分法，进行拆分排序，后进行合并
      *
      * @param head
      * @return
