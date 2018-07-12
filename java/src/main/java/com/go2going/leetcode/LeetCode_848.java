@@ -3,7 +3,7 @@ package com.go2going.leetcode;
 public class LeetCode_848 {
     public String shiftingLetters(String S, int[] shifts) {
 
-        //计算出每个字符总的移动次数
+        //计算出每个字符总的移动次数,然后一次性完成每个字符的移动
         long[] sum = new long[S.length()];
 
         /*for (int i : shifts) {
