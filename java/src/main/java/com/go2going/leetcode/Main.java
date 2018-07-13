@@ -5,6 +5,7 @@ import com.go2going.lambda.model.Person;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -76,5 +77,90 @@ public class Main {
         int right = root.right != null && root.right.val == root.val ? r + 1 : 0;
         res[0] = Math.max(res[0], left + right);
         return Math.max(left, right);
+    }
+}
+class Rectangle{
+    public static void main(String[] args) {
+        print(pp(5));
+    }
+
+    /**
+     * N>0
+     * 打印N*N正方形矩阵，矩阵中每个元素从0-9，从左上角开始，0为第一个数字，顺时针方向，直到中间为止
+     * @param N
+     * @return
+     */
+    public static int[][] pp(int N) {
+        int[][] ans = new int[N][N];
+
+        // 记录当前的位置
+        int hIndex = 0, lIndex = 0;
+
+        //边界
+        int l = 0, r = N, up = 0, down = N;
+
+        //方向
+        String status = "right";
+
+        for (int i = 0; i <= 9; i++) {
+            ans[hIndex][lIndex] = i;
+            if (i == 9) {
+                i = -1;
+            }
+            if (status.equals("right")) {
+                //    右--下
+                if (lIndex + 1 >= r) {
+                    status = "down";
+                    hIndex++;
+                    up++;
+                } else {
+                    lIndex++;
+                }
+
+            } else if (status.equals("left")) {
+                //    左--上
+                if (lIndex - 1 < l) {
+                    status = "up";
+                    hIndex--;
+                    down--;
+                } else {
+                    lIndex--;
+                }
+
+            } else if (status.equals("up")) {
+                //    上--右
+                if (hIndex - 1 < up) {
+                    status = "right";
+                    lIndex++;
+                    l++;
+                } else {
+                    hIndex--;
+                }
+            } else if (status.equals("down")) {
+                // 下--左
+                if (hIndex+1 >= down) {
+                    status = "left";
+                    lIndex--;
+                    r--;
+                } else {
+                    hIndex++;
+                }
+            }
+
+
+            if (l == r||down==up) {
+                break;
+            }
+
+
+        }
+        return ans;
+    }
+
+    private static void print(int[][] p) {
+        for (int i = 0; i < p.length; i++) {
+            System.out.println(Arrays.toString(p[i]));
+        }
+        System.out.println();
     }
 }
