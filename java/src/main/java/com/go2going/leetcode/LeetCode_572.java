@@ -1,8 +1,5 @@
 package com.go2going.leetcode;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * 项目名称：  testcode<br>
  * 类名称：  LeetCode_572<br>
@@ -50,14 +47,6 @@ public class LeetCode_572 {
         return isSame(s.left, t.left) && isSame(s.right, t.right);
     }
 
-    public static void main(String[] args) {
-        LeetCode_572 leetCode_572 = new LeetCode_572();
-        TreeNode left = leetCode_572.stringToTreeNode("[3,4,5,1,2,null,null,0]");
-        TreeNode right = leetCode_572.stringToTreeNode("[4,1,2]");
-        leetCode_572.isSubtree(left, right);
-
-    }
-
     public class TreeNode {
         int val;
         TreeNode left;
@@ -66,49 +55,6 @@ public class LeetCode_572 {
         TreeNode(int x) {
             val = x;
         }
-    }
-    public  TreeNode stringToTreeNode(String input) {
-        input = input.trim();
-        input = input.substring(1, input.length() - 1);
-        if (input.length() == 0) {
-            return null;
-        }
-
-        String[] parts = input.split(",");
-        String item = parts[0];
-        TreeNode root = new TreeNode(Integer.parseInt(item));
-        Queue<TreeNode> nodeQueue = new LinkedList<>();
-        nodeQueue.add(root);
-
-        int index = 1;
-        while(!nodeQueue.isEmpty()) {
-            TreeNode node = nodeQueue.remove();
-
-            if (index == parts.length) {
-                break;
-            }
-
-            item = parts[index++];
-            item = item.trim();
-            if (!item.equals("null")) {
-                int leftNumber = Integer.parseInt(item);
-                node.left = new TreeNode(leftNumber);
-                nodeQueue.add(node.left);
-            }
-
-            if (index == parts.length) {
-                break;
-            }
-
-            item = parts[index++];
-            item = item.trim();
-            if (!item.equals("null")) {
-                int rightNumber = Integer.parseInt(item);
-                node.right = new TreeNode(rightNumber);
-                nodeQueue.add(node.right);
-            }
-        }
-        return root;
     }
 
 }
