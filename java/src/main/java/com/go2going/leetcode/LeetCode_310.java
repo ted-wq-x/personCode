@@ -68,7 +68,7 @@ public class LeetCode_310 {
     public List<Integer> findMinHeightTrees1(int n, int[][] edges) {
         if (n == 1) return Collections.singletonList(0);
 
-        //use set because of faster than list
+        //use set because of get and set faster than list
         List<Set<Integer>> adj = new ArrayList<>(n);
         for (int i = 0; i < n; ++i) adj.add(new HashSet<>());
         for (int[] edge : edges) {
