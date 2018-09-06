@@ -17,7 +17,7 @@ import java.nio.channels.FileChannel;
 public class Main {
     public static void main(String[] args) {
         try {
-            FileInputStream inputStream = new FileInputStream("E:\\read.log");
+            FileInputStream inputStream = new FileInputStream("E:\\read.logging");
             FileChannel channel = inputStream.getChannel();
 
             ByteBuffer allocate = ByteBuffer.allocate(1024);

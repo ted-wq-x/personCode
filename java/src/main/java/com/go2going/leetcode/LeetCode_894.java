@@ -8,14 +8,17 @@ import java.util.List;
 import java.util.Map;
 
 public class LeetCode_894 {
+    private Map<Integer, List<TreeNode>> cache = new HashMap<>();
 
     /**
-     * 记忆化递归6ms，未记忆化11ms
+     * 记忆化递归4ms，未记忆化11ms
+     *
      * @param N
      * @return
      */
     public List<TreeNode> allPossibleFBT(int N) {
 
+        if (cache.get(N) != null) return cache.get(N);
 
         List<TreeNode> ans = new ArrayList<>();
         //偶数个节点无法构成满二叉树
@@ -28,23 +31,11 @@ public class LeetCode_894 {
             return ans;
         }
 
-        Map<Integer,List<TreeNode>> mem=new HashMap<>();
 
         //将所有的节点分为左右两个部分，这儿就是这个算法的关键
-        for (int i = 1; i < N; i+=2) {
-            List<TreeNode> leftNodes = mem.get(i);
-            if (leftNodes == null) {
-                leftNodes = allPossibleFBT(i);
-                mem.put(i, leftNodes);
-            }
-            for (TreeNode l : leftNodes) {
-                int index = N - i - 1;
-                List<TreeNode> rightNodes = mem.get(index);
-                if (rightNodes == null) {
-                    rightNodes = allPossibleFBT(index);
-                    mem.put(index, rightNodes);
-                }
-                for (TreeNode r : rightNodes) {
+        for (int i = 1; i < N; i += 2) {
+            for (TreeNode l : allPossibleFBT(i)) {
+                for (TreeNode r : allPossibleFBT(N - i - 1)) {
                     TreeNode root = new TreeNode(0);
                     root.left = l;
                     root.right = r;
@@ -53,7 +44,7 @@ public class LeetCode_894 {
 
             }
         }
-
+        cache.put(N, ans);
         return ans;
     }
 }
