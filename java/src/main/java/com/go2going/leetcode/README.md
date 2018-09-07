@@ -38,10 +38,12 @@ BST:二叉树上又加了个搜索的限制。其要求：每个节点比其左�
 # 网上看到的五大常见算法
 
 1. 贪婪算法
-2. 动态规划算法(dp=> Dynamic planning)
-3. 分治算法
-4. 深度优先搜索(dfs=>Depth-first search)：[wiki](https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
-5. 回溯算法
+1. 动态规划算法(dp=> Dynamic planning)
+1. 分治算法
+1. 深度优先搜索(dfs=>Depth-first search)：[wiki](https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
+1. 回溯算法
+1. 图染色（二分图）:886，785
+1. bitmap（处理大数据时使用，[BITMAP](https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/06.07.md)）
 
 
 
