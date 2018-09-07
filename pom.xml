@@ -29,11 +29,10 @@
     </properties>
 
     <modules>
-        <module>lucene</module>
         <module>java</module>
         <module>java9</module>
-        <module>vertx</module>
-        <module>zookeeper</module>
+        <!--<module>vertx</module>-->
+        <!--<module>zookeeper</module>-->
         <module>gof</module>
     </modules>
 
