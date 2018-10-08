@@ -23,7 +23,7 @@ public class LeetCode_31 {
         if (n < 2)
             return;
         int index = n - 1;
-        //从后往前找到第一个后面比前面打的元素位置
+        //从后往前找到第一个后面比前面大的元素位置
         while (index > 0) {
             if (num[index - 1] < num[index])//找到的是4，但是index是4的
                 break;
