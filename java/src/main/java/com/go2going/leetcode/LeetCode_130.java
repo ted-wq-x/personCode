@@ -25,18 +25,18 @@ public class LeetCode_130 {
             return;
         }
 
+        // 找到边界中所有为O的点,并标记为1，表示不需要变换的O
         Queue<int[]> queue = new ArrayDeque<>();
         for (int i = 0; i < height; i++) {
             for (int y = 0; y < length; y++) {
-                if (board[i][y] == 'O') {
-                    if (i == 0 || y == 0 || i == height - 1 || y == length - 1) {
-                        queue.add(new int[]{i, y});
-                        board[i][y] = '1';
-                    }
+                if (board[i][y] == 'O'&&(i == 0 || y == 0 || i == height - 1 || y == length - 1)) {
+                    queue.add(new int[]{i, y});
+                    board[i][y] = '1';
                 }
             }
         }
 
+        // 找到前后左右为O的点，标记为1，并递归
         while (!queue.isEmpty()) {
             int[] poll = queue.poll();
             int x = poll[0];
@@ -59,6 +59,7 @@ public class LeetCode_130 {
                 queue.add(new int[]{x, y + 1});
             }
         }
+        //进行变换，为1的还原成O
         for (int i = 0; i < height; i++) {
             for (int y = 0; y < length; y++) {
                 if (board[i][y] == 'O') {
