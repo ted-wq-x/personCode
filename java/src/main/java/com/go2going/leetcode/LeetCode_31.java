@@ -12,7 +12,7 @@ package com.go2going.leetcode;
 public class LeetCode_31 {
 
     /**
-     * 还是挺难的，需要找到规律，好难，没看懂，TODO
+     * 还是挺难的，需要找到规律，好难
      * 0,1,2,3,4,5
      * 1,2,3,7,3,4
      *
@@ -33,6 +33,7 @@ public class LeetCode_31 {
             //如果是从大到小排序，则交换第一个和最后一个
             reverseSort(num, 0, n - 1);
         } else {
+            //找到第一个比3大的数，进行交换
             int val = num[index - 1];//
             int j = n - 1;
             while (j >= index) {
@@ -41,6 +42,7 @@ public class LeetCode_31 {
                 j--;
             }
             swap(num, j, index - 1);//交换3,4
+            //这个没明白为什么 这个很难解释原因
             reverseSort(num, index, n - 1);//防止出现最小的情况
         }
     }
