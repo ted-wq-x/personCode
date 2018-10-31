@@ -2,10 +2,6 @@ package com.go2going.leetcode;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Queue;
-import java.util.Set;
 
 /**
  * 我的做法都是dfs，这题还有dp的方式，参考 https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-322-coin-change/
