@@ -32,8 +32,9 @@ public class LeetCode_910 {
 
             // 思路是，在排序完之后，只要使得最小值+K，最大值-K，那么其差值就会是min
             // greedy去计算最大值和最小值，保留min（h-l）
-            // 最小值
+            // 最小值，贪婪，就是使min尽可能的min，l尽可能的大，h尽可能的小
             int l = Math.min(A[0] + K, A[i] - K);
+            // 最大值
             int h = Math.max(A[A.length - 1] - K, A[i - 1] + K);
             min = Math.min(min, h - l);
         }
