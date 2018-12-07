@@ -47,9 +47,35 @@ public class LeetCode_287 {
 
         return start;
     }
+
+    /**
+     * 由于数组0处没有索引指向（从0处开始的链一定不会指回0处），所以将数组看成静态链表，其中有一个重复的元素，也就是存在一个环
+     * 快慢指针循环检测
+     * 理解图参考 https://github.com/ted-wq-x/ted-wq-x.github.io/blob/master/img/blogImg/2018-12-07/leetcode_287.jpg
+     * @param nums
+     * @return
+     */
+    public int findDuplicate2(int[] nums) {
+        int slow = nums[0], fast = nums[nums[0]];
+
+        while(slow != fast){
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        }
+
+        slow = 0;
+        while(slow != fast){
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+
+        return slow;
+
+
+    }
     public static void main(String[] args) {
         LeetCode_287 leetCode_287=new LeetCode_287();
-        System.out.println(leetCode_287.findDuplicate(new int[]{3, 1, 3, 4, 2}));
-        System.out.println(leetCode_287.findDuplicate(new int[]{1,3,4,2,2}));
+        System.out.println(leetCode_287.findDuplicate2(new int[]{3, 1, 3, 4, 2}));
+        // System.out.println(leetCode_287.findDuplicate(new int[]{1,3,4,2,2}));
     }
 }
