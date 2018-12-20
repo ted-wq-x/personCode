@@ -51,7 +51,7 @@ BST:二叉树上又加了个搜索的限制。其要求：每个节点比其左�
 
 # 常见算法分类
 
-1. 动态规划 (Dynamic programming)
+1. 动态规划 (Dynamic programming)，这里是我的弱项，得找个时间着重学习下
 1. 递归 (Recursion) 
 1. 设计/数据结构 (Design/Data Structure)
 1. 树 (Binary Tree) 
