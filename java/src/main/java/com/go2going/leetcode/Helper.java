@@ -1,6 +1,8 @@
 package com.go2going.leetcode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -76,8 +78,48 @@ public class Helper {
         return root;
     }
 
+    public static int[][] StringToArray(String string) {
+        String substring = string.substring(1, string.length() - 1);
+        List<List<Integer>> ansL = new ArrayList<>();
+        char[] chars = substring.toCharArray();
+        List<Integer> temp=null;
+        StringBuilder sb=new StringBuilder();
+        for (char c : chars) {
+            if (c == '[') {
+                temp = new ArrayList<>();
+            } else if (c == ']') {
+                ansL.add(temp);
+            } else if (c == ',') {
+                if (sb.length() == 0) {
+                    continue;
+                }
+                temp.add(Integer.valueOf(sb.toString()));
+                sb=new StringBuilder();
+            }else {
+                //number
+                sb.append(c);
+            }
+        }
+        if (sb.length() != 0) {
+            temp.add(Integer.valueOf(sb.toString()));
+        }
+
+        int size = ansL.size();
+        int[][] ans = new int[size][];
+        for (int i = 0; i < size; i++) {
+            List<Integer> integers = ansL.get(i);
+            ans[i] = new int[integers.size()];
+            for (int j = 0; j < integers.size(); j++) {
+                ans[i][j] = integers.get(j);
+            }
+        }
+        return ans;
+    }
+
+
+
     public static void main(String[] args) {
-        TreeNode treeNode = stringToTreeNode("[3,5,1,6,2,0,8,null,null,7,4]");
-        System.out.println(treeNode.val);
+        int[][] ints = StringToArray("[[0,2],[0,1],[3,3],[1,0],[2,3],[1,2],[1,333,4]]");
+        System.out.println(ints.length);
     }
 }
