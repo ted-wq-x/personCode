@@ -72,3 +72,13 @@ BST:二叉树上又加了个搜索的限制。其要求：每个节点比其左�
 
 分析计算机在处理负数时的处理方式[知乎](https://www.zhihu.com/question/20159860)
 
+## 图
+
+1. 无向图最短路径 
+
+LeetCode_743，下面的三种方法都是模板，需要记住，|V|和|E|分别是节点和边的数量
+
+* bellman-ford：缺点时间复杂度高O(VE)，空间复杂度O(V),[wiki](https://zh.wikipedia.org/wiki/%E8%B4%9D%E5%B0%94%E6%9B%BC-%E7%A6%8F%E7%89%B9%E7%AE%97%E6%B3%95)
+* dijkstra：时间复杂度高O(V*V),对于不包含负权图这是最快的 [wiki](https://zh.wikipedia.org/wiki/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95)
+* floyd-warshall：时间复杂度O(V*V*V),空间复杂度O(V*V),[wiki](https://zh.wikipedia.org/wiki/Floyd-Warshall%E7%AE%97%E6%B3%95)
+

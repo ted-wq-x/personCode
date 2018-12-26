@@ -20,8 +20,8 @@ public class LeetCode_743 {
      * 求最短路径,3中方法都是模板
      *
      * @param times
-     * @param N
-     * @param K
+     * @param N 节点数
+     * @param K 起始点
      * @return
      */
     public int networkDelayTime(int[][] times, int N, int K) {
@@ -56,6 +56,7 @@ public class LeetCode_743 {
 
         int max = 0;
 
+        //从起始点向外扩散
         while (!pq.isEmpty()) {
             int[] cur = pq.poll();
             int target = cur[0];
@@ -65,8 +66,7 @@ public class LeetCode_743 {
             }
 
             //权值的最大值
-            // max = Math.max(max, cur[1]);
-            max = cur[1];
+            max = Math.max(max, cur[1]);
 
             visited[cur[0]] = true;
 
@@ -109,6 +109,7 @@ public class LeetCode_743 {
         dis[K] = 0;
         dis[0] = -1;
 
+        //为什么这里执行N次，每次访问邻居，所以想要访问全部点就得进行n次，松弛操作
         for (int i = 0; i < N; i++) {
             for (int[] time : times) {
                 int u = time[0];
@@ -153,6 +154,8 @@ public class LeetCode_743 {
 
         //i起点，j终点，k是中间点
         //k,i,j顺序不能乱
+        //思路：动态规划。从i到j经过k，那么最短路径就是min(dis(i,j),dis(i,k)+dis(k,j))
+        //因为使用+，所以无法处理负权图
         for (int k = 0; k < N; k++) {
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {

@@ -23,6 +23,7 @@ public class LeetCode_847 {
         //数组0=点，1=遍历的状态
         ArrayDeque<Integer[]> queue = new ArrayDeque<>();
 
+        //初始化状态
         for (int i = 0; i < length; i++) {
             queue.add(new Integer[]{i, 1 << i});
         }
@@ -37,12 +38,14 @@ public class LeetCode_847 {
                 Integer[] pop = queue.pop();
                 int node = pop[0];
                 int state = pop[1];
+                //done的表示方式是亮点
                 if (state == done) {
                     return min;
                 }
                 if (visited[node][state] == 1) {
                     continue;
                 }
+                //BFS
                 for (int i : graph[node]) {
                     queue.addLast(new Integer[]{i, state | 1 << i});
                 }

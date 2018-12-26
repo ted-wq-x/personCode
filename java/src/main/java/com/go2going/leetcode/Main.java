@@ -6,7 +6,10 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author BlueT
@@ -16,12 +19,22 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int i = 2;
-        int[] num = {1, 2, 3};
+        Map<String, String> map = new HashMap<>();
+        map.put("wq", "2");
+        map.put("wq1", "12");
+        map.put("wq2", "22");
+        Set<Map.Entry<String, String>> entries = map.entrySet();
+        for (Map.Entry<String, String> entry : entries) {
 
-        swap(num, i--, 2);
+        }
+        for (String s : map.keySet()) {
+            String s1 = map.get(s);
+            if (s.equals("12")) {
+                map.put("scc", "1111");
 
-        System.out.println(i);
+            }
+            System.out.println(s+":"+s1);
+        }
     }
 
     private static void swap(int[] num, int i, int j) {
